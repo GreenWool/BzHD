@@ -5,4 +5,6 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Настройки</string>
+    <string name="title_chapter_list">Chapter</string>
+    <string name="title_chapter_detail">Chapter Detail</string>
 </resources>
