@@ -7,4 +7,18 @@
     <string name="action_settings">Настройки</string>
     <string name="title_chapter_list">Chapter</string>
     <string name="title_chapter_detail">Chapter Detail</string>
+    <string name="CHS">Понятие о ЧС</string>
+    <string name="GO">Гражданская оборона</string>
+    <string name="terror">Терроризм</string>
+    <string name="test">Тесы</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="temes_head">
+        <item>Lion</item>
+        <item>Fish</item>
+        <item>Cat</item>
+        <item>Dog</item>
+        <item>Snake</item>
+    </string-array>
 </resources>

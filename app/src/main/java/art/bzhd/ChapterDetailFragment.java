@@ -52,6 +52,7 @@ public class ChapterDetailFragment extends Fragment {
                 appBarLayout.setTitle(mItem.content);
             }
         }
+
     }
 
     @Override
@@ -66,4 +67,6 @@ public class ChapterDetailFragment extends Fragment {
 
         return rootView;
     }
+
+
 }

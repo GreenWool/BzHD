@@ -22,7 +22,7 @@
         <activity
             android:name=".ChapterListActivity"
             android:label="@string/title_chapter_list"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ChapterDetailActivity"
             android:label="@string/title_chapter_detail"
