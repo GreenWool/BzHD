@@ -11,19 +11,19 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="Gos.Sitema">Гос. система безопасности</string>
+    <string name="Gos.Sitema"><b><u>Гос. система безопасности</u></b></string>
     <string name="RSCS">РСЧС</string>
     <string name="GO">ГО</string>
-    <string name="Zashita.ot.CS">Защиста населения от ЧС</string>
+    <string name="Zashita.ot.CS"><b><u>Защиста населения от ЧС</u></b></string>
     <string name="Priroda">Природного характера</string>
     <string name="Texnogen">Техногенного характера</string>
     <string name="Socium">Социального характера</string>
     <string name="OMP">Защита от ОМП</string>
-    <string name="Soxran.zdorovya">Сохранение здоровья и собственной безопасности</string>
+    <string name="Soxran.zdorovya"><b><u>Сохранение здоровья и собственной безопасности</u></b></string>
     <string name="ZOG">ЗОЖ</string>
     <string name="LBez">Обеспечение личной безопасности в бытовой и производственной деят</string>
     <string name="Med">Основы медицинских знаний</string>
-    <string name="Proverka">Проверка знаний</string>
+    <string name="Proverka"><b><u>Проверка знаний</u></b></string>
     <string name="test1">Тест по разделу 1</string>
     <string name="test2">Тест по разделу 2</string>
     <string name="test3">Тест по разделу 3</string>
