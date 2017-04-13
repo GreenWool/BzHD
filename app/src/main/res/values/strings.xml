@@ -7,18 +7,25 @@
     <string name="action_settings">Настройки</string>
     <string name="title_chapter_list">Chapter</string>
     <string name="title_chapter_detail">Chapter Detail</string>
-    <string name="CHS">Понятие о ЧС</string>
-    <string name="GO">Гражданская оборона</string>
-    <string name="terror">Терроризм</string>
-    <string name="test">Тесы</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string-array name="temes_head">
-        <item>Lion</item>
-        <item>Fish</item>
-        <item>Cat</item>
-        <item>Dog</item>
-        <item>Snake</item>
-    </string-array>
+    <string name="Gos.Sitema">Гос. система безопасности</string>
+    <string name="RSCS">РСЧС</string>
+    <string name="GO">ГО</string>
+    <string name="Zashita.ot.CS">Защиста населения от ЧС</string>
+    <string name="Priroda">Природного характера</string>
+    <string name="Texnogen">Техногенного характера</string>
+    <string name="Socium">Социального характера</string>
+    <string name="OMP">Защита от ОМП</string>
+    <string name="Soxran.zdorovya">Сохранение здоровья и собственной безопасности</string>
+    <string name="ZOG">ЗОЖ</string>
+    <string name="LBez">Обеспечение личной безопасности в бытовой и производственной деят</string>
+    <string name="Med">Основы медицинских знаний</string>
+    <string name="Proverka">Проверка знаний</string>
+    <string name="test1">Тест по разделу 1</string>
+    <string name="test2">Тест по разделу 2</string>
+    <string name="test3">Тест по разделу 3</string>
+
 </resources>
