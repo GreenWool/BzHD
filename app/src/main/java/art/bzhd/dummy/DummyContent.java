@@ -1,0 +1,95 @@
+package art.bzhd.dummy;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * Helper class for providing sample content for user interfaces created by
+ * Android template wizards.
+ * <p>
+ * TODO: Replace all uses of this class before publishing your app.
+ */
+public class DummyContent {
+
+    /**
+     * An array of sample (dummy) items.
+     */
+    public static final List<DummyItem> ITEMS = new ArrayList<DummyItem>();
+
+    /**
+     * A map of sample (dummy) items, by ID.
+     */
+    public static final Map<String, DummyItem> ITEM_MAP = new HashMap<String, DummyItem>();
+
+    private static final int COUNT = 10;
+
+  /**  static {
+        // Add some sample items.
+        for (int i = 1; i <= COUNT; i++) {
+            addItem(createDummyItem(i));
+        }
+    }*/
+
+    private static void addItem(DummyItem item) {
+        ITEMS.add(item);
+        ITEM_MAP.put(item.id, item);
+    }
+
+    /** private static DummyItem createDummyItem(int position) {
+      switch(position) {
+            case 1:
+                return new DummyItem(String.valueOf(position), "Пожар", makeDetails(position));
+            case 2:
+                return new DummyItem(String.valueOf(position), "Классификация", makeDetails(position));
+            case 3:
+                return new DummyItem(String.valueOf(position), "Виды пожаров", makeDetails(position));
+            case 4:
+                return new DummyItem(String.valueOf(position), "Причины пожаров в жилых помещениях", makeDetails(position));
+            case 5:
+                return new DummyItem(String.valueOf(position), "Причины пожаров в нежилых помещениях", makeDetails(position));
+            case 6:
+                return new DummyItem(String.valueOf(position), "Возгорание в природе", makeDetails(position));
+            case 7:
+                return new DummyItem(String.valueOf(position), "Меры по предотвращению", makeDetails(position));
+            case 8:
+                return new DummyItem(String.valueOf(position), "Пропаганда противопожарных мер среди населения", makeDetails(position));
+            case 9:
+                return new DummyItem(String.valueOf(position), "Профилактика в жилом секторе", makeDetails(position));
+
+            default:
+                return new DummyItem(String.valueOf(position), "Item " + position, makeDetails(position));
+        }
+    }*/
+
+
+    private static String makeDetails(int position) {
+        StringBuilder builder = new StringBuilder();
+        builder.append("Details about Item: ").append(position);
+        for (int i = 0; i < position; i++) {
+            builder.append("\nMore details information here.");
+        }
+        return builder.toString();
+    }
+
+    /**
+     * A dummy item representing a piece of content.
+     */
+    public static class DummyItem {
+        public final String id;
+        public final String content;
+        public final String details;
+
+        public DummyItem(String id, String content, String details) {
+            this.id = id;
+            this.content = content;
+            this.details = details;
+        }
+
+        @Override
+        public String toString() {
+            return content;
+        }
+    }
+}

@@ -1,35 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
-
-    <item android:title="Communicate">
+    <item android:title="@string/Gos.Sitema">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/RSCS"
+                android:title="@string/RSCS" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/GO"
+                android:title="@string/GO" />
+
+        </menu>
+    </item>
+    <item android:title="@string/Zashita.ot.CS">
+        <menu>
+            <item
+                android:id="@+id/Priroda"
+                android:title="@string/Priroda" />
+            <item
+                android:id="@+id/Texnogen"
+                android:title="@string/Texnogen" />
+            <item
+                android:id="@+id/Socium"
+                android:title="@string/Socium" />
+            <item
+                android:id="@+id/OMP"
+                android:title="@string/OMP" />
+
+        </menu>
+    </item>
+    <item android:title="@string/Soxran.zdorovya">
+        <menu>
+            <item
+                android:id="@+id/ZOG"
+                android:title="@string/ZOG" />
+            <item
+                android:id="@+id/Lbez"
+                android:title="@string/LBez" />
+            <item
+                android:id="@+id/Med"
+                android:title="@string/Med" />
+
+        </menu>
+    </item>
+
+    <item android:title="@string/Proverka">
+        <menu>
+            <item
+                android:id="@+id/Test1"
+                android:title="@string/test1" />
+            <item
+                android:id="@+id/Test2"
+                android:title="@string/test2" />
+            <item
+                android:id="@+id/Test3"
+                android:title="@string/test3" />
+
         </menu>
     </item>
 
