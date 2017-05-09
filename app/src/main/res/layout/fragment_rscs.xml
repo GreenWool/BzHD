@@ -8,14 +8,20 @@
 
 
     <ScrollView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent">
 
         <TextView
+            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/LectRSCS" />
-
+            android:lineSpacingMultiplier="1.1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:text="@string/LectRSCS"
+            android:textColor="@color/textColor" />
     </ScrollView>
 
 </FrameLayout>
